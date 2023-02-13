@@ -1,9 +1,7 @@
 document.addEventListener("DOMContentLoaded", () => {
   const cardsAdj =  [ 
- {
-    name: "tiburon",
- imagenes: "imagenes/tiburon[1].jpg"
- }
+ {name: "tiburon",
+ imagenes: "imagenes/tiburon[1].jpg"}
  {
   name: "tiburon",
 imagenes: "imagenes/tiburon[2].jpg"
@@ -47,6 +45,11 @@ imagenes: "imagenes/tiburon[5].jpg"
 {
 name: "tiburon",
 imagenes: "imagenes/tiburon[6].jpg"
-    }
-  ];
+}];
+const cuadricula = document.querySelector(".cuadricula");
+  const resultado = document.querySelector("#resultado");
+  var cartasEscogidas = [];
+  var cartasEscogidasId = [];
+  var cartasGanadas = [];
 });
+
