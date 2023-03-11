@@ -1,49 +1,49 @@
 document.addEventListener("DOMContentLoaded", () => {
   const cardsAdj = [
-    { name: "tiburon", img: "imagenes/tiburon[1].jpg" },
+    { name: "tiburon", img: "imagenes/tiburon1[1].jpg" },
     {
       name: "tiburon",
-      img: "imagenes/tiburon[2].jpg"
+      img: "imagenes/tiburon2[1].jpg"
     },
     {
       name: "tiburon",
-      img: "imagenes/tiburon[3].jpg"
+      img: "imagenes/tiburon3[1].jpg"
     },
     {
       name: "tiburon",
-      img: "imagenes/tiburon[4].jpg"
+      img: "imagenes/tiburon4[1].jpg"
     },
     {
       name: "tiburon",
-      img: "imagenes/tiburon[5].jpg"
+      img: "imagenes/tiburon5[1].jpg"
     },
     {
       name: "tiburon",
-      img: "imagenes/tiburon[6].jpg"
+      img: "imagenes/tiburon6[1].jpg"
     },
     {
       name: "tiburon",
-      img: "imagenes/tiburon[1].jpg"
+      img: "imagenes/tiburon1[1].jpg"
     },
     {
       name: "tiburon",
-      img: "imagenes/tiburon[2].jpg"
+      img: "imagenes/tiburon2[1].jpg"
     },
     {
       name: "tiburon",
-      img: "imagenes/tiburon[3].jpg"
+      img: "imagenes/tiburon3[1].jpg"
     },
     {
       name: "tiburon",
-      img: "imagenes/tiburon[4].jpg"
+      img: "imagenes/tiburon4[1].jpg"
     },
     {
       name: "tiburon",
-      img: "imagenes/tiburon[5].jpg"
+      img: "imagenes/tiburon5[1].jpg"
     },
     {
       name: "tiburon",
-      img: "imagenes/tiburon[6].jpg"
+      img: "imagenes/tiburon6[1].jpg"
     }
   ];
 
