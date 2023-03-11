@@ -60,17 +60,18 @@ document.addEventListener("DOMContentLoaded", () => {
       carta.setAttribute("data-id", i);
       carta.addEventListener("click", voltearcarta);
       cuadricula.appendChild(carta);
-
-      function voltearcarta() {
-        var cardId = this.getAttribute("data-id");
-        cartasEscogidas.push(cardsAdj[cardId].name);
-        cartasEscogidasId.push(cardId);
-        this.setAttribute("src", cardsAdj[cardId].img);
-        if (cartasEscogidas.length === 2) {
-          setTimeout(verificarpareja, 1000);
-        }
-      }
-      crearTablero();
     }
   }
+
+  function voltearcarta() {
+    var cardId = this.getAttribute("data-id");
+    cartasEscogidas.push(cardsAdj[cardId].name);
+    cartasEscogidasId.push(cardId);
+    this.setAttribute("src", cardsAdj[cardId].img);
+
+    if (cartasEscogidas.length === 2) {
+      setTimeout(verificarpareja, 1000);
+    }
+  }
+  crearTablero();
 });
